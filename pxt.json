@@ -1,0 +1,32 @@
+{
+    "name": "rt",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "cozir": "github:letstalkscience/pxt-cozir#v0.0.9",
+        "pxt-edubit": "github:cytrontechnologies/pxt-edubit#v1.15.0",
+        "Environment-and-Science-IoT": "github:tinkertanker/pxt-iot-environment-kit#v5.6.2",
+        "radio-broadcast": "*",
+        "servo": "*",
+        "audio-recording": "*",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.8",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
